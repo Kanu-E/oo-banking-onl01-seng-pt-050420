@@ -1,9 +1,10 @@
 class BankAccount
   
-  attr_accessor 
+  attr_accessor:balance 
   attr_reader:name
 
-def initialize (name)
+def initialize (name, balance = 1000)
    @name = name
+   @balance = balance
 end
 end
